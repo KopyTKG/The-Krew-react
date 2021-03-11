@@ -5,7 +5,7 @@ class HomeNutton extends React.Component {
     render() {
         return(
             <div className="home">
-            <a href="/ReactApp/"><Logo modifier="5"/></a>
+            <a href="/"><Logo modifier="5"/></a>
             </div>
         );
     }

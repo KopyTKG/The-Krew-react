@@ -19,9 +19,9 @@ class Nav extends React.Component {
                 </Col> 
                 <Col xs="6">
                     <Row xs="12">
-                        <NavButton text="About" link="ReactApp/about"/>
-                        <NavButton text="Join" link="ReactApp/join"/>
-                        <NavButton text="Contact" link="ReactApp/contact"/>
+                        <NavButton text="About" link="about"/>
+                        <NavButton text="Join" link="join"/>
+                        <NavButton text="Contact" link="contact"/>
                     </Row>
                 </Col>
                 <Col xs="3"/>
