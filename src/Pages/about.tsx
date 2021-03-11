@@ -41,7 +41,7 @@ const App: React.FC = () => {
                             Kopy.TKG -{">"} the server owner <br/>
                             D4vEOFF -{">"} main admin / bot dev <br/>
                             ByBye -{">"} admin / meme master <br/>
-                            Marty11 -{">"} admin / bobo hater <br/>
+                            Marty11 -{">"} admin / <b>bobo hater</b> <br/>
                             Seeya -{">"} admin / network master <br/>
                         </Col>
                         
