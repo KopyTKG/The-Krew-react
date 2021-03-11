@@ -21,10 +21,10 @@ ReactDOM.render(
     <Router basename={process.env.PUBLIC_URL}>
       <Nav/>
       <Switch>
-        <Route path="/ReactApp/" exact component={Index}/>
-        <Route path="/ReactApp/join" component={Join}/>
-        <Route path="/ReactApp/about" component={Error}/>
-        <Route path="/ReactApp/contact" component={Error}/>
+        <Route path="/" exact component={Index}/>
+        <Route path="/join" component={Join}/>
+        <Route path="/about" component={Error}/>
+        <Route path="/contact" component={Error}/>
         <Route path="/" component={Error}/>
 
       </Switch>
