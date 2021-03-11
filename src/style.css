@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+  background: #494949;
+   background-image: url("./assets/img/background-gray.jpg");
+   /* background-image: url("./assets/img/background-blue.jpg"); */
+   overflow-y: hidden;
+}
+a {
+    text-decoration: none;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 1%;
+}
+.margin-top{
+    margin-top: .8%;
+}
+.center{
+  margin-top:14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-line{
+    margin-top:3%;
+    display: flex;
+    justify-content: center;
+  }
+.inner{
+    height: 800pt;
+}
+.line {
+    display: inline-flex;
+    width: 800pt;
+}
+.margin{
+    margin: 0.3%;
+}
+.home{
+    z-index: 2;
+    position: absolute;
+    left: 5%;
+    top: 0.7%;
+}
+.margin-left{
+    margin-left: 2%;
+}
+
+.text-gradient{
+  background: -webkit-linear-gradient(#AEFF00, #CF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Font size */
+.text-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 600;
+
+}
+.text-larger{
+    font-size: 72px;
+}
+.text-large{
+    font-size: 60px;
+}
+.text-medium{
+    font-size: 40px;
+}
+.text-small{
+    font-size: 27px;
+}
+.text-smaller{
+    font-size: 20px;
+}
+
+/* Text color */
+.text-black{
+    color:black;
+}
+
+.text-white{
+    color:white;
+}
+
+.text-border{
+
+}
+
+/* BG color */
+.bg-darker {
+    background: #2C2C2C;
+}
+
+.bg-dark {
+    background: #494949;
+}
+
+.bg-black {
+    background: black;
+}
+
+.bg-light {
+    background: #C2C2C2;
+}
+
+.bg-white {
+    background: white;
+}
+
+.bg-white-transparent {
+    background: rgba(205, 205, 205, 0.6);
+}
+
+.bg-radius {
+    border-radius: 20pt;
+}
+.bg-radius-right {
+    border-top-right-radius: 20pt;
+    border-bottom-right-radius: 20pt;
+}
+.bg-radius-left {
+    border-top-left-radius: 20pt;
+    border-bottom-left-radius: 20pt;
+}
+
+.nav-text {
+    margin-top: 4%;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 40px;
+    background: -webkit-linear-gradient(#FFCA7A, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-text:hover{
+    text-decoration: none;
+    background: -webkit-linear-gradient(#FFB800, #FF6B00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-strip{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 60px;
+
+    background: rgba(188, 188, 188, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.text-krew {
+    background: -webkit-linear-gradient(#FFB800, #FF6B00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dis {
+    margin: auto;
+    margin-top: 3%;
+    width: 120pt;
+    height: 98pt;
+    background-image: url("./assets/img/discord.png");
+    background-size:contain;
+}
