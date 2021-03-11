@@ -22,7 +22,7 @@ const App: React.FC = () => {
                     The krew group [TKG]
                     </Row>
                     <Row className="text-small text-black">
-                    We are group of friends and gamers.<br/> Some of us are mentally ill (#BOBO). <br/>He likes to spam “EY” so watch out.<br/> Last thing don’t be like bobo, nobody likes bob!
+                    We are group of friends and gamers.<br/> Some of us are mentally ill (#BOBO). <br/>He likes to spam “EY” so watch out.<br/> Last thing don’t be like bobo, nobody likes bobo!
                     </Row>
                 </Col>
                 <Col xs="1"/>
