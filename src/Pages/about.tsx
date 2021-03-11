@@ -57,7 +57,7 @@ const App: React.FC = () => {
                     <Row xs="12" className="text-smaller text-black">
                         <Col xs="11">
                         G0DS -{">"} Owner / main admin<br/>
-                        DEMONS -{">"} Admins<br/>
+                        DEM0NS -{">"} Admins<br/>
                         HIGH END USER -{">"} all perm but not admin<br/>
                         LOW END USER -{">"} Access to all rooms<br/>
                         The Krew Member -{">"} user<br/>
