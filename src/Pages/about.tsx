@@ -22,7 +22,7 @@ const App: React.FC = () => {
                     The krew group [TKG]
                     </Row>
                     <Row className="text-small text-black">
-                    We are group of friends and gamers.<br/> Some of us are mentally ill (#BOBO). <br/>He likes to spam “EY” so watch out.<br/> Last thing don’t be like bobo, nobody likes bobo!
+                    We are group of friends and gamers.<br/> Some of us are mentally ill (#Bword). <br/>He likes to spam “EY” so watch out.<br/> Last thing don’t be like bobo, nobody likes bobo!
                     </Row>
                 </Col>
                 <Col xs="1"/>
@@ -33,7 +33,9 @@ const App: React.FC = () => {
                 <Col xs="5" className="bg-white-transparent bg-radius-left">
                     <Row xs="12" className="text-medium text-title">
                         <Col xs="1"/>
+                        <Col xs="11">
                         Active users:
+                        </Col>
                     </Row>
                     <Row xs="12" className="text-smaller text-black">
                         <Col xs="1"/>
