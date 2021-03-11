@@ -10,6 +10,7 @@ import Footer from './Components/Subcomps/footer';
 
 
 import Join from './Pages/join'
+import About from './Pages/about'
 import Index from './Pages/index'
 import Error from './Pages/error'
 
@@ -23,12 +24,12 @@ ReactDOM.render(
       <Switch>
         <Route path="/" exact component={Index}/>
         <Route path="/join" component={Join}/>
-        <Route path="/about" component={Error}/>
+        <Route path="/about" component={About}/>
         <Route path="/contact" component={Error}/>
         <Route path="/" component={Error}/>
 
       </Switch>
-      <Footer link="blue"/>
+      <Footer link="gray"/>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

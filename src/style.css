@@ -2,7 +2,6 @@
 body {
   background: #494949;
    background-image: url("./assets/img/background-gray.jpg");
-   /* background-image: url("./assets/img/background-blue.jpg"); */
    overflow-y: hidden;
 }
 a {
@@ -171,5 +170,15 @@ a {
     width: 120pt;
     height: 98pt;
     background-image: url("./assets/img/discord.png");
+    background-size:contain;
+}
+
+.logo {
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 160pt;
+    height: 160pt;
+    background-image: url("./assets/img/TheKrew_steam.png");
     background-size:contain;
 }
