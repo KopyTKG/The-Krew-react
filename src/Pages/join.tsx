@@ -11,14 +11,16 @@ const App: React.FC = () => {
                     <Title title="Join"/>
                 </Col>
             </Row>
-            <Container>
-                <Row className="bg-white-transparent bg-radius">
+            <Container className="bg-white-transparent bg-radius">
+                <Row>
                     <Col>
                         <a href="https://discord.gg/ZtjNUMHm8C" target="_blank" rel="noreferrer">
                             <div className="dis"/>
                         </a>
                     </Col>
-                    <Col>
+                </Row>
+                <Row>
+                    <Col className="text-center">
                         <Row className="text-small">
                             <Col>
                                 Hey, you looking for good discord server?? <br/> Come, join out server.

@@ -15,6 +15,11 @@ a {
 .margin-top {
   margin-top: 13pt;
 }
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .center {
   margin-top: 50%;
   display: flex;
