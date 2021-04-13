@@ -5,7 +5,7 @@ import Title from '../Components/Subcomps/title';
 const App: React.FC = () => {
     return(
         <>
-        <Container className="inner bg-white-transparent margin-top">
+        <Container className="inner-join bg-white-transparent margin-top">
             <Row xs="12">
                 <Col xs="12" className="center-line">
                     <Title title="Join"/>
