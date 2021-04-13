@@ -12,20 +12,27 @@ const App: React.FC = () => {
                 </Col>
             </Row>
             <br/>
-            <Row xs="12">
-                <Col xs="1"/>
-                <Col xs="3" className="bg-white-transparent bg-radius-left">
-                    <a href="https://discord.gg/ZtjNUMHm8C" target="_blank" rel="noreferrer"><div className="logo"/></a>
-                </Col>
-                <Col className="bg-white-transparent bg-radius-right">
-                    <Row xs="12" className="text-medium text-title">
-                    The krew group [TKG]
+            <Row xl="12" lg="12" md="12" sm="12" xs="12">
+                <Container>
+                    <Row>
+                        <Col xs="0" sm="1"/>
+                        <Col  xs="6" sm="5" className="bg-white-transparent bg-radius-left">
+                            <a href="https://discord.gg/ZtjNUMHm8C" target="_blank" rel="noreferrer"><div className="logo"/></a>
+                        </Col>
+                        <Col xs="6" sm="5" className="bg-white-transparent bg-radius-right">
+                            <Row xs="12" className="text-medium text-title">
+                            The Krew Group [TKG]
+                            </Row>
+                            <Row className="text-small text-black">
+                            We are group of friends and gamers.<br/>
+                            Some of us are mentally ill (#Bword). <br/>
+                            He likes to spam “EY” so watch out.<br/>
+                            Last thing don’t be like bobo, nobody likes bobo!
+                            </Row>
+                        </Col>
+                        <Col xs="0" sm="1"/>
                     </Row>
-                    <Row className="text-small text-black">
-                    We are group of friends and gamers.<br/> Some of us are mentally ill (#Bword). <br/>He likes to spam “EY” so watch out.<br/> Last thing don’t be like bobo, nobody likes bobo!
-                    </Row>
-                </Col>
-                <Col xs="1"/>
+                </Container>
             </Row>
             <br/>
             <Row xs="12">

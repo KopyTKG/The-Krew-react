@@ -11,21 +11,27 @@ const App: React.FC = () => {
                     <Title title="Join"/>
                 </Col>
             </Row>
-            <Row xs="12">
-                <Col xs="1"/>
-                <Col xs="3" className="bg-white-transparent bg-radius-left">
-                    <a href="https://discord.gg/ZtjNUMHm8C" target="_blank" rel="noreferrer"><div className="dis"/></a>
-                </Col>
-                <Col className="bg-white-transparent bg-radius-right">
-                    <Row xs="12" className="text-small">
-                    Hey, you looking for good discord server?? <br/> Come, join out server.
-                    </Row>
-                    <Row className="text-medium text-black text-title">
-                        {"<"}- Click to join server
-                    </Row>
-                </Col>
-                <Col xs="1"/>
-            </Row>
+            <Container>
+                <Row className="bg-white-transparent bg-radius">
+                    <Col>
+                        <a href="https://discord.gg/ZtjNUMHm8C" target="_blank" rel="noreferrer">
+                            <div className="dis"/>
+                        </a>
+                    </Col>
+                    <Col>
+                        <Row className="text-small">
+                            <Col>
+                                Hey, you looking for good discord server?? <br/> Come, join out server.
+                            </Col>
+                        </Row>
+                        <Row className="text-medium text-black text-title">
+                            <Col>
+                                Click icon to join server
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
         </Container>
         </>
     )

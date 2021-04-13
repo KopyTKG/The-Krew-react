@@ -25,7 +25,6 @@ ReactDOM.render(
         <Route path="/" exact component={Index}/>
         <Route path="/join" component={Join}/>
         <Route path="/about" component={About}/>
-        <Route path="/contact" component={Error}/>
         <Route path="/" component={Error}/>
 
       </Switch>

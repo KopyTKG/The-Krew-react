@@ -12,19 +12,22 @@ class Nav extends React.Component {
     render() {
         return( 
         <Container>
-            <HomeNutton/>
             <div className="nav-strip"></div>
-            <Row xs="12">
-                <Col xs="3">
+            <Row lg="12" md="12" sm="12" xs="12">
+                <Col>
+                    <HomeNutton/>
                 </Col> 
-                <Col xs="6">
-                    <Row xs="12">
-                        <NavButton text="About" link="about"/>
-                        <NavButton text="Join" link="join"/>
-                        <NavButton text="Contact" link="contact"/>
+                <Col>
+                    <Row xs="12" sm="12" md="12" lg="12" xl="12">
+                        <Col xs="0" sm="0" md="3"></Col>
+                        <Col xs="6" sm="6" md="4">
+                            <NavButton text="About" link="about"/>
+                        </Col>
+                        <Col xs="6" sm="6" md="3">
+                            <NavButton text="Join" link="join"/>
+                        </Col>
                     </Row>
                 </Col>
-                <Col xs="3"/>
                 
             </Row>
         </Container>
