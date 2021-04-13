@@ -5,78 +5,76 @@ import Title from '../Components/Subcomps/title';
 const App: React.FC = () => {
     return(
         <>
-        <Container className=" bg-white-transparent margin-top inner">
+        <Container className="inner bg-white-transparent margin-top ">
             <Row xs="12">
                 <Col xs="12" className="center-line">
                     <Title title="About"/>
                 </Col>
             </Row>
-            <br/>
-            <Row xl="12" lg="12" md="12" sm="12" xs="12">
-                <Container>
-                    <Row>
-                        <Col xs="0" sm="1"/>
-                        <Col  xs="6" sm="5" className="bg-white-transparent bg-radius-left">
-                            <a href="https://discord.gg/ZtjNUMHm8C" target="_blank" rel="noreferrer"><div className="logo"/></a>
-                        </Col>
-                        <Col xs="6" sm="5" className="bg-white-transparent bg-radius-right">
-                            <Row xs="12" className="text-medium text-title">
-                            The Krew Group [TKG]
-                            </Row>
-                            <Row className="text-small text-black">
-                            We are group of friends and gamers.<br/>
-                            Some of us are mentally ill (#Bword). <br/>
-                            He likes to spam “EY” so watch out.<br/>
-                            Last thing don’t be like bobo, nobody likes bobo!
-                            </Row>
-                        </Col>
-                        <Col xs="0" sm="1"/>
-                    </Row>
-                </Container>
-            </Row>
-            <br/>
-            <Row xs="12">
-                <Col xs="1"/>
-                <Col xs="5" className="bg-white-transparent bg-radius-left">
-                    <Row xs="12" className="text-medium text-title">
-                        <Col xs="1"/>
-                        <Col xs="11">
-                        Active users:
-                        </Col>
-                    </Row>
-                    <Row xs="12" className="text-smaller text-black">
-                        <Col xs="1"/>
-                        <Col xs="11">
-                            Kopy.TKG -{">"} the server owner <br/>
-                            D4vEOFF -{">"} main admin / bot dev <br/>
-                            ByBye -{">"} admin / meme master <br/>
-                            Marty11 -{">"} admin / <b>bobo hater</b> <br/>
-                            Seeya -{">"} admin / network master <br/>
-                        </Col>
-                        
-                    </Row>
-                </Col>
-                <Col className="bg-white-transparent bg-radius-right">
-                    <Row xs="12" className="text-medium text-title">
-                    <Col xs="11">
-                        Server Roles:
+            <Container className="bg-white-transparent bg-radius">
+                <Row>
+                    <Col>
+                    <a href="https://discord.gg/ZtjNUMHm8C" target="_blank" rel="noreferrer"><div className="logo"/></a>
                     </Col>
-                    <Col xs="1"/>
-                    </Row>
-                    <Row xs="12" className="text-smaller text-black">
+                </Row>
+                <Row>
+                    <Col className="text-center">
+                        <span className="text-medium text-title">
+                        The Krew Group [TKG] 
+                        </span>
+                        <br/>
+                        <span className="text-small text-black">
+                        We are group of friends and gamers.<br/>
+                        Some of us are mentally ill (#Bword). <br/>
+                        PS: <br/>
+                        He likes to spam “EY” so watch out.<br/>
+                        Last thing don’t be like bobo, nobody likes bobo!
+                        </span>
+                    </Col>
+                </Row>
+            </Container>
+            <br/>
+            <Container>
+                <Row className="bg-white-transparent bg-radius">
+                    <Col xs="6">
+                        <Row xs="12" className="text-medium text-title">
+                            <Col xs="1"/>
+                            <Col xs="11">
+                            Active users:
+                            </Col>
+                        </Row>
+                        <Row xs="12" className="text-smaller text-black">
+                            <Col xs="1"/>
+                            <Col xs="11">
+                                Kopy.TKG (Owner / dev - web dev) <br/>
+                                D4vEOFF (main admin / bot dev)<br/>
+                                ByBye  (admin / meme master) <br/>
+                                Marty11 (admin / <b>Bword</b> hater)<br/>
+                                Seeya (admin / network master) <br/>
+                            </Col>
+                            
+                        </Row>
+                    </Col>
+                    <Col>
+                        <Row xs="12" className="text-medium text-title">
                         <Col xs="11">
-                        G0DS -{">"} Owner / main admin<br/>
-                        DEM0NS -{">"} Admins<br/>
-                        HIGH END USER -{">"} all perm but not admin<br/>
-                        LOW END USER -{">"} Access to all rooms<br/>
-                        The Krew Member -{">"} user<br/>
-                        PLEBS [NEW] -{">"} new user<br/>
+                            Server Roles:
                         </Col>
                         <Col xs="1"/>
-                    </Row>
-                </Col>
-                <Col xs="1"/>
-            </Row>
+                        </Row>
+                        <Row xs="12" className="text-smaller text-black">
+                            <Col xs="11">
+                            DEM0NS -{">"} Admins<br/>
+                            HIGH END USER -{">"} Active user<br/>
+                            LOW END USER -{">"} Better user<br/>
+                            The Krew Member -{">"} user<br/>
+                            </Col>
+                            <Col xs="1"/>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
+            <br/>
         </Container>
         </>
     )
