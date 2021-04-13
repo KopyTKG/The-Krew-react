@@ -3,9 +3,12 @@ import { Row, Col, Container } from 'reactstrap';
 import Title from '../Components/Subcomps/title';
 
 const App: React.FC = () => {
+    let h = 0;
+    if(window.innerHeight > 800) h = 788;
+    else h = 400;
     return(
         <>
-        <Container className=" bg-white-transparent margin-top inner">
+        <Container className=" bg-white-transparent margin-top inner" style={{height: h, overflowY: "hidden"}}>
             <Row xs="12">
                 <Col xs="12" className="center-line">
                     <Title title="Join"/>
