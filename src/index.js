@@ -42,11 +42,11 @@ ReactDOM.render(
       {/*
       * Background img
       */}
-      <Background url="/img/background-gray.jpg"/>
+      {/* <Background url="/img/background.png"/> */}
       {/*
       * Footer -> /src/Components/Footer.js
       */}
-      <Footer link="gray"/>
+      <Footer link="https://www.toptal.com/designers/subtlepatterns/"/>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,7 +1,6 @@
 
 const Background = (url) => {
     const Back = url.url;
-    console.log(Back);
     return(
         <div style={{
             backgroundImage: `url("${process.env.PUBLIC_URL + Back}")`,
