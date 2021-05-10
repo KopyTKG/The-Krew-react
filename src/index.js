@@ -1,21 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
+// css files
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./style.css";
+import "./Style/style.css";
+import "./Style/index.css";
+import "./Style/textblock.css";
 
+// custome components
 import Nav from './Components/NavBar';
 import Footer from './Components/footer';
+import Background from './Components/Background';
 
-
+// sites
 import Join from './Pages/join'
 import About from './Pages/about'
 import Index from './Pages/index'
 import Error from './Pages/error'
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Background from './Components/Background';
+
 
 
 ReactDOM.render(
@@ -47,5 +51,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-reportWebVitals();

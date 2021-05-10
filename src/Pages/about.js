@@ -1,37 +1,22 @@
-import React from "react"
 import { Row, Col, Container } from 'reactstrap';
 import Title from '../Components/SVG/title';
+import TextBlock from "../Components/TextBlock";
 
-const App: React.FC = () => {
+const App = () => {
     return(
         <>
-        <Container className="inner-about bg-white-transparent margin-top ">
+        <Container className="bg-white-transparent margin-top ">
             <Row xs="12">
                 <Col xs="12" className="center-line">
                     <Title title="About"/>
                 </Col>
             </Row>
             <Container className="bg-white-transparent bg-radius">
-                <Row>
-                    <Col>
-                    <a href="https://discord.gg/ZtjNUMHm8C" target="_blank" rel="noreferrer"><div className="logo"/></a>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col className="text-center">
-                        <span className="text-medium text-title">
-                        The Krew Group [TKG] 
-                        </span>
-                        <br/>
-                        <span className="text-small text-black">
-                        We are group of friends and gamers.<br/>
-                        Some of us are mentally ill (#Bword). <br/>
-                        PS: <br/>
-                        He likes to spam “EY” so watch out.<br/>
-                        Last thing don’t be like bobo, nobody likes bobo!
-                        </span>
-                    </Col>
-                </Row>
+                <TextBlock
+                    title="The Krew Group [TKG]"
+                    text="We are group of friends and gamers. <br>
+                        Some of us are mentally ill (#Bword)."
+                    img={process.env.PUBLIC_URL + "/logo.png"} />
             </Container>
             <br/>
             <Container>

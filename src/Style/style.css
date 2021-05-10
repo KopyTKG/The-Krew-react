@@ -2,7 +2,6 @@
 
 body {
   background: rgba(0, 0, 0, 0.726);
-  /* background-image: url("./assets/img/background-gray.jpg"); */
 }
 a {
   text-decoration: none;
@@ -20,21 +19,14 @@ a {
   justify-content: center;
   align-items: center;
 }
-.center {
-  margin-top: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .center-line {
   margin-top: 3%;
   display: flex;
   justify-content: center;
 }
-.inner-about {
-  /*test*/
+/* .inner-about {
   height: 1075pt;
-}
+} */
 .inner-join {
   height: 520pt;
 }
@@ -175,7 +167,7 @@ a {
   margin-top: 1%;
   width: 128pt;
   height: 100pt;
-  background-image: url("./assets/img/discord.png");
+  background-image: url("../assets/img/discord.png");
   background-size: contain;
 }
 
@@ -185,7 +177,7 @@ a {
   margin-bottom: 3%;
   width: 160pt;
   height: 160pt;
-  background-image: url("./assets/img/TheKrew_steam.png");
+  background-image: url("../assets/img/TheKrew_steam.png");
   background-size: contain;
 }
 
