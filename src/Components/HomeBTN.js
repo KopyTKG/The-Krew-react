@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./logo";
+import Logo from "./SVG/logo";
 
 class HomeNutton extends React.Component {
     render() {

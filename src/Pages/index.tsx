@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from '../Components/Subcomps/logo';
+import Logo from '../Components/SVG/logo';
 
 const App: React.FC = () => {
     return(

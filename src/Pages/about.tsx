@@ -1,6 +1,6 @@
 import React from "react"
 import { Row, Col, Container } from 'reactstrap';
-import Title from '../Components/Subcomps/title';
+import Title from '../Components/SVG/title';
 
 const App: React.FC = () => {
     return(

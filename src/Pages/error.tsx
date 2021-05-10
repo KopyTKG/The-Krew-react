@@ -1,5 +1,5 @@
 import React from "react"
-import Error from '../Components/Subcomps/Error';
+import Error from '../Components/SVG/Error';
 
 const App: React.FC = () => {
     return(
