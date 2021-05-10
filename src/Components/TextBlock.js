@@ -15,9 +15,18 @@ const TextBlock = ({title, text, img, click, size, radius}) => {
                 <Row>
                     <Col xs="6">
                         {lines && lines.map((line, index) => {
-                            return(
-                                line
-                                );
+                            let bold = line.split("<b>");
+                            console.log(bold);
+                            if(bold.length > 1){
+                                return(<><br/>{bold[0]}<b>{bold[1]}</b>{bold[2]}</>)
+                            }
+                            else {
+                                return(
+                                    <>
+                                    {line}
+                                    </>
+                                    );
+                            }
                         })}
                     </Col>
                     <Col xs="6" className="block-img-slot">

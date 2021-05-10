@@ -4,9 +4,9 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 // css files
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./Style/style.css";
-import "./Style/index.css";
-import "./Style/textblock.css";
+import "./assets/Style/style.css";
+import "./assets/Style/index.css";
+import "./assets/Style/textblock.css";
 
 // custome components
 import Nav from './Components/NavBar';
@@ -41,7 +41,10 @@ ReactDOM.render(
       {/*
       * Footer -> /src/Components/Footer.js
       */}
-      <Footer link="https://www.toptal.com/designers/subtlepatterns/"/>
+      <Footer 
+      link="https://www.toptal.com/designers/subtlepatterns/"
+      git="https://github.com/KopyTKG/ReactApp"
+      />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
