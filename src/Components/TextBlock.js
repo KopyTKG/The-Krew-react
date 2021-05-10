@@ -26,7 +26,7 @@ const TextBlock = ({title, text, img, click, size, radius}) => {
                             rel="noreferrer"
                         >
                         {img &&
-                            <img src={img} className={"block-filler-img " + style}/>
+                            <img src={img} className={"block-filler-img " + style} alt="def"/>
                         }
                         </a>
                     </Col>

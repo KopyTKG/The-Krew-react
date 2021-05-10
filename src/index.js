@@ -11,7 +11,6 @@ import "./Style/textblock.css";
 // custome components
 import Nav from './Components/NavBar';
 import Footer from './Components/footer';
-import Background from './Components/Background';
 
 // sites
 import Join from './Pages/join'
@@ -39,10 +38,6 @@ ReactDOM.render(
         <Route path="/about" component={About}/>
         <Route path="/" component={Error}/>
       </Switch>
-      {/*
-      * Background img
-      */}
-      {/* <Background url="/img/background.png"/> */}
       {/*
       * Footer -> /src/Components/Footer.js
       */}
