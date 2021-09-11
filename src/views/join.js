@@ -24,7 +24,7 @@ const Join = () => {
             <Container className="bg-white-transparent bg-radius">
                 <TextBlock 
                     title="Old website"
-                    text="Just remider. What we use to have. <br> <b> All build by using HTML, CSS, JS.<b> <br> <b><b>New website is powered by React"
+                    text="Just a remider. What we used to have. <br> <b> All build using HTML, CSS, JS, Bootstrap.<b> <br> <b><b>New website is powered by React"
                     img={process.env.PUBLIC_URL + "/logo.png"}
                     click="https://the-krew.github.io"
                     size="l"

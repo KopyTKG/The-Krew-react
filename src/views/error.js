@@ -1,7 +1,7 @@
 import React from "react"
 import Error from '../Components/SVG/Error';
 
-const App: React.FC = () => {
+const App = () => {
     return(
         <>
         <div className="center">
