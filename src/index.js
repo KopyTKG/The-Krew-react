@@ -11,10 +11,10 @@ import Nav from './Components/NavBar';
 import Footer from './Components/footer';
 
 // sites
-import Join from './views/join'
-import About from './views/about'
 import Index from './views/index'
-import Error from './views/error'
+// import Join from './views/join'
+// import About from './views/about'
+// import Error from './views/error'
 import ThemeContextWrapper from './Components/theme/themeWrapper';
 
 
