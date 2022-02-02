@@ -40,7 +40,7 @@ const Default = ({Back}) => {
             <div className="main-panel" ref={mainPanelRef}>
                 <Switch>
                 {getRoutes(routes)}
-                    <Redirect from="*" to="/default/about" />
+                    <Redirect from="*" to="/default/home" />
                 </Switch>
             </div>
             <footer className="bottom">
