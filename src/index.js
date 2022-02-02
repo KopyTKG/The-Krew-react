@@ -7,10 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./assets/scss/index.scss";
 
 // custome components
-import Nav from './Components/NavBar';
-
 import DefaultLayout from './layout/default/default.layout';
-
 import ThemeContextWrapper from './Components/theme/themeWrapper';
 
 ReactDOM.render(

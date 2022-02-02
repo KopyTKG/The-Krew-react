@@ -6,10 +6,7 @@ import {Github} from "../../assets/@svg/react/solid/"
 
 import routes from "../../routes.js";
 
-var ps;
-
 const Default = ({Back}) => {
-  const location = useLocation();
   const mainPanelRef = React.useRef(null);
 
   const getRoutes = (routes) => {
@@ -27,17 +24,6 @@ const Default = ({Back}) => {
       }
     });
   };
-
-  const getBrandText = (path) => {
-    for (let i = 0; i < routes.length; i++) {
-      if (location.pathname.indexOf(routes[i].layout + routes[i].path) !== -1) {
-        return routes[i].name;
-      }
-    }
-    return "Brand";
-  };
-
-
   return (
         <React.Fragment>
           <div className="wrapper">

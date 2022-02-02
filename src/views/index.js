@@ -6,7 +6,7 @@ const Index = () => {
     return(
         <>
         <div id="home" className="m-1x">
-            <img src={KrewLogo} className="m-1x"></img>
+            <img src={KrewLogo} className="m-1x" alt="temp slot"/>
         </div>
         <div id="about" className="m-2x">
             <div className="center">
@@ -30,7 +30,7 @@ const Index = () => {
             </div>
         </div>
         <div className="m-1x">
-            <img src={KrewLogo} className="m-1x"></img>
+            <img src={KrewLogo} className="m-1x" alt="temp slot"/>
         </div>
         <div id="crew" className="m-2x">
             <div className="center">

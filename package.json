@@ -1,6 +1,7 @@
 {
   "name": "the_krew_app",
   "version": "0.1.9",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.4",
@@ -9,15 +10,16 @@
     "@testing-library/user-event": "^12.8.0",
     "bootstrap": "^4.6.0",
     "dotenv": "^10.0.0",
-    "node-sass-package-importer": "^5.3.2",
+    "node-sass": "^7.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.0",
     "reactstrap": "^8.9.0",
-    "sass": "^1.39.2",
-    "web-vitals": "^1.1.0"
+    "sass-loader": "^12.4.0",
+    "web-vitals": "^1.1.0",
+    "webpack": "^5.68.0"
   },
   "scripts": {
     "predeploy": "npm run build",
