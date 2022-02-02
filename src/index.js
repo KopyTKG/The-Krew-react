@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route,Redirect} from 'react-router-dom';
 
 // css files
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,6 +20,9 @@ ReactDOM.render(
       {/* <Nav/> */}
       <Switch>
         <Route path="/default" render={(props) => <DefaultLayout/>} />
+        <Route exact path="/">
+            <Redirect from="/" to="/default" />
+        </Route>
       </Switch>
     </Router>
     </ThemeContextWrapper>
