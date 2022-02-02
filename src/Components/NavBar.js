@@ -1,5 +1,5 @@
 import { Col, Row, Container } from "reactstrap";
-// import NavButton from "./NavBTN";
+import NavButton from "./NavBTN";
 // CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeNutton from "./HomeBTN";
@@ -13,17 +13,17 @@ const Nav =() => {
                 <Col>
                     <HomeNutton/>
                 </Col> 
-                {/* <Col>
+                <Col>
                     <Row xs="12" sm="12" md="12" lg="12" xl="12">
                         <Col xs="0" sm="0" md="3"/>
                         <Col xs="6" sm="6" md="4">
-                            <NavButton text="About" link="about"/>
+                            <NavButton text="About" link="default/about"/>
                         </Col>
                         <Col xs="6" sm="6" md="3">
                             <NavButton text="Join" link="join"/>
                         </Col>
                     </Row>
-                </Col> */}
+                </Col>
                 
             </Row>
         </Container>

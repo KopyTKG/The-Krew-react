@@ -1,15 +1,59 @@
 import React from "react"
-// import Logo from '../Components/SVG/logo';
+import { Col, Row } from "reactstrap";
+import KrewLogo from "../assets/img/TheKrew.png";
 
-const App = () => {
+const Index = () => {
     return(
         <>
-        <div className="center" style={{fontSize: "32px", fontWeight: 600}}>
-            {/* <Logo modifier="1"/> */}
-            Website is currently under rebuild.
+        <div id="home" className="m-1x">
+            <img src={KrewLogo} className="m-1x"></img>
+        </div>
+        <div id="about" className="m-2x">
+            <div className="center">
+                <Row>
+                <Col>
+                    <div className="sw-1x sh-1x"></div>
+                    <div className="sh-spacer"></div>
+                    <div className="sw-1x sh-1x"></div>
+                    <div className="sh-spacer"></div>
+                    <div className="sw-1x sh-2x"></div>
+                </Col>
+                <Col>
+                    <div className="sw-1x sh-1x"></div>
+                    <div className="sh-spacer"></div>
+                    <div className="sw-1x sh-2x"></div>
+                    <div className="sh-spacer"></div>
+                    <div className="sw-1x sh-1x"></div>
+                </Col>
+                </Row>
+
+            </div>
+        </div>
+        <div className="m-1x">
+            <img src={KrewLogo} className="m-1x"></img>
+        </div>
+        <div id="crew" className="m-2x">
+            <div className="center">
+                <Row>
+                <Col>
+                    <div className="sw-1x sh-1x"></div>
+                    <div className="sh-spacer"></div>
+                    <div className="sw-1x sh-1x"></div>
+                    <div className="sh-spacer"></div>
+                    <div className="sw-1x sh-2x"></div>
+                </Col>
+                <Col>
+                    <div className="sw-1x sh-2x"></div>
+                    <div className="sh-spacer"></div>
+                    <div className="sw-1x sh-1x"></div>
+                    <div className="sh-spacer"></div>
+                    <div className="sw-1x sh-1x"></div>
+                </Col>
+                </Row>
+            </div>
         </div>
         </>
     )
 }
 
-export default App;
+export default Index;

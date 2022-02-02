@@ -8,36 +8,19 @@ import "./assets/scss/index.scss";
 
 // custome components
 import Nav from './Components/NavBar';
-import Footer from './Components/footer';
 
-// sites
-import Index from './views/index'
-// import Join from './views/join'
-// import About from './views/about'
-// import Error from './views/error'
+import DefaultLayout from './layout/default/default.layout';
+
 import ThemeContextWrapper from './Components/theme/themeWrapper';
-
-
-
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeContextWrapper>
     <Router>
-      <Nav/>
+      {/* <Nav/> */}
       <Switch>
-        <Route path="/" component={Index}/>
-        {/* <Route path="/join" component={Join}/>
-        <Route path="/about" component={About}/>
-        <Route path="/" component={Error}/> */}
+        <Route path="/default" render={(props) => <DefaultLayout/>} />
       </Switch>
-      {/*
-      * Footer -> /src/Components/Footer.js
-      */}
-      <Footer 
-      link="https://www.toptal.com/designers/subtlepatterns/"
-      git="https://github.com/KopyTKG/ReactApp"
-      />
     </Router>
     </ThemeContextWrapper>
   </React.StrictMode>,
