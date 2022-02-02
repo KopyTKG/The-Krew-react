@@ -1,10 +1,10 @@
-@use "sass:math";
+
 // width
 $mw-1x: 100vw;
-$sw-1x: math.div(100vw, 4) - (math.div(100vw, 2) * 0.05);
-$sw-2x: math.div(100vw, 2) - (math.div(100vw, 2) * 0.075);
+$sw-1x: (100vw/4) - ((100vw/2) * 0.05);
+$sw-2x: (100vw/2) - ((100vw/2) * 0.075);
 
-$sw-spacer: (math.div(100vw, 2) * 0.025);
+$sw-spacer: ((100vw/2) * 0.025);
 
 // height
 $mh-1x: 100vh;
