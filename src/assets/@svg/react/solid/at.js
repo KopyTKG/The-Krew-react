@@ -5,7 +5,7 @@ function At(props, {width}) {
     xmlns: "http://www.w3.org/2000/svg",
     fill: props.fill,
     viewBox: "0 0 25 25",
-    stroke: "black",
+    stroke: props.stroke,
     width: props.width,
     className: props.className,
     strokeWidth: 0

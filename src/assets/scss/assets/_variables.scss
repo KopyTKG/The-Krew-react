@@ -1,14 +1,24 @@
-
 // width
 $mw-1x: 100vw;
-$sw-1x: (100vw/4) - ((100vw/2) * 0.05);
-$sw-2x: (100vw/2) - ((100vw/2) * 0.075);
+$sw-1x: calc((100vw / 4) - ((100vw / 2) * 0.05));
+$sw-2x: calc((100vw / 2) - ((100vw / 2) * 0.075));
 
-$sw-spacer: ((100vw/2) * 0.025);
+$sw-spacer: calc(((100vw / 2) * 0.05));
 
 // height
 $mh-1x: 100vh;
 $mh-2x: 200vh;
+
+$sh-1x: calc(((100vh / 4) - ((100vh / 2) * 0.05)) * 2);
+$sh-2x: calc(((100vh / 2) - ((100vh / 2) * 0.075)) * 2);
+
+$sh-spacer: calc(((100vh / 2) * 0.05));
+
+$sr-1: 5%;
+$sr-2: 10%;
+$sr-3: 15%;
+$sr-4: 20%;
+$sr-5: 25%;
 
 $gray-100: #f6f9fc !default;
 $gray-200: #e9ecef !default;
