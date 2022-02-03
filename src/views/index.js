@@ -1,7 +1,7 @@
 import React from "react"
 import { Col, Row } from "reactstrap";
 
-import KrewLogo from "../assets/img/TheKrew.png";
+const KrewLogo = process.env.PUBLIC_URL + "/Image/TheKrew.png";
 
 const Index = () => {
     return(
