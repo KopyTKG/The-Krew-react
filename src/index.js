@@ -16,9 +16,9 @@ ReactDOM.render(
     <Router>
       {/* <Nav/> */}
       <Switch>
-        <Route path="/default" render={(props) => <DefaultLayout/>} />
+        <Route path="/" render={(props) => <DefaultLayout/>} />
         <Route exact path="/">
-            <Redirect from="/" to="/default" />
+            <Redirect from="/" to="/" />
         </Route>
       </Switch>
     </Router>

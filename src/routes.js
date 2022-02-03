@@ -65,21 +65,21 @@ var routes = [
     name: "Home",
     // icon: ChartPie,
     component: Index,
-    layout: "/default",
+    layout: "",
   },
   {
     path: "/about",
     name: "About",
     // icon: Calendar,
     component: About,
-    layout: "/default"
+    layout: ""
   },
   {
     path: "/join",
     name: "Join",
     // icon: BookMark,
     component: Join,
-    layout: "/default"
+    layout: ""
   }
 ];
 export default routes;

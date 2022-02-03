@@ -11,7 +11,7 @@ const Default = ({Back}) => {
 
   const getRoutes = (routes) => {
     return routes.map((prop, key) => {
-      if (prop.layout === "/default") {
+      if (prop.layout === "") {
         return (
           <Route
             path={prop.layout + prop.path}
@@ -40,7 +40,7 @@ const Default = ({Back}) => {
             <div className="main-panel" ref={mainPanelRef}>
                 <Switch>
                 {getRoutes(routes)}
-                    <Redirect from="*" to="/default/home" />
+                    <Redirect from="*" to="/home" />
                 </Switch>
             </div>
             <footer className="bottom">
