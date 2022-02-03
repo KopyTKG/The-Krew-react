@@ -1,7 +1,7 @@
 import React from "react"
 import { Col, Row } from "reactstrap";
 
-const KrewLogo = url("../assets/img/TheKrew.png");
+import {ReactComponent as KrewLogo} from "../assets/img/TheKrew.png";
 
 const Index = () => {
     return(
