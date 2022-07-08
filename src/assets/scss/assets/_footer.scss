@@ -1,0 +1,20 @@
+footer {
+    position: fixed;
+    bottom: .2rem; 
+    left: .2rem;
+    display:flex;
+    gap: .2rem;
+    opacity: 0.95;
+    & img {
+      width: 30px;
+      border-radius: 15%; 
+    }
+    & span {
+        font-size: larger;
+      font-weight: bold;
+      //color: $orange;
+      -webkit-text-stroke-width: .1px;
+      -webkit-text-stroke-color: $white;
+      -webkit-text-fill-color: $orange;
+    }
+  }
